@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #113d88;
+    margin: 0;
+    padding: 0; 
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #00b3ff;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #00fffb;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.container-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 20px;
+    size: 10px;
+    transition: all 0.3s ease;
+    color: black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform: translateY(-10px);
+}
+
+.container-cursos{
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.card-cursos{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-cursos:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform: translateY(-10px);
+}
+
+.container-sobre{
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.card-sobre{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-sobre:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform: translateY(-10px);
+}
+
+
+.fotos{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+}
+
+.fotos:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    transform: translateY(-10px);
+}
+
+.container-galeria{
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.imgdestaque{
+    width: 190px;
+    display: flex;
+    border-radius: 10px;
+}
+ 
+
+.butao{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99,102,241,0.4);
+    transform: translateY(-5px)
+}
+
+.logoep {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;      
+    justify-content: center; 
+    text-align: center;
+    color: black;
+}
+
+.nomeescola{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+}
+
+.subtitulo{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#titulodestaque{
+    text-align: center;
+}
+
+section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+#classcursos{
+    text-align: center;
+    padding: 30px;
+}
+
+#Cursos{
+  background: #f5f5f5;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+#classfotos{
+    text-align: center;
+    padding: 30px;
+}
+
+#Galeriafotos{
+  background: #f5f5f5;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+
+
+h1, h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.bannerEEEP {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 550px; /* diminui altura */
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+#banner{
+    background-color: #08478f;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 700px;
+}
+
+
+#secaosobre{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.container-sobre{
+  background: #08478f;
+  padding: 60px 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.3rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-family: inherit;
+    resize: none;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.2);
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background:  #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#contato{
+    text-align: center;
+    padding: 60px 0px;
+    color: #000000;
+}
+
+.container-contato{
+  background: #f5f5f5;
+  padding: 60px 0;
+  border-radius: 10px;
+  color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 40px;
+    color: white;
+    background-color: #000000;
+    width: 100%;
+}
+
