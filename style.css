@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0; 
     color: #fff;
-    text-align: justify;
+    text-align: justify;  
+    word-spacing: -2px;
 }
 
 nav ul {
